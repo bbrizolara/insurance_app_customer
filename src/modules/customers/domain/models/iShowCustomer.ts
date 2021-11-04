@@ -1,3 +1,4 @@
 export interface IShowCustomer {
-  id: string;
+  id?: string;
+  email?: string;
 }
